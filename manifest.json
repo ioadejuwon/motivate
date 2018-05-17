@@ -1,0 +1,15 @@
+{
+    "name":"Motivate++",
+    "description":"This extension helps users manage their daily tasks and focus on their goals",
+    "version":"1.7",
+    "manifest_version":2,
+    "browser_action":{
+        "default_popup":"motivate.html",
+        "default_icon":"motivate.png"
+
+    },
+    "chrome_url_overrides":{
+        "newtab":"motivate.html"
+    }
+
+}
